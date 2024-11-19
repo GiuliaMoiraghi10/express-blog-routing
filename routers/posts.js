@@ -2,15 +2,12 @@
 
 // Importo express
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 // INDEX
-router.get('/', (req, res) => {
-    res.send('Lista dei posts AAAAAA')
-})
 
 router.get('/', (req, res) => {
-    res.send('Lista dei posts prova')
+    res.send('Lista dei posts')
 })
 
 // SHOW
